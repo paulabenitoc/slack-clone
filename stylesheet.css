@@ -172,7 +172,7 @@ body{
 
 .b-register__google{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: #4285F4;
     font-family: 'Calibri';
@@ -188,8 +188,12 @@ body{
 }
 
 .b-register__google img{
-    width: 40px;
-    padding-right: 20px;
+    width: 60px;
+}
+
+.b-register__google span{
+    flex-grow: 1;
+    text-align: center;
 }
 
 /*media query para pantallas de 1200px o menos*/
